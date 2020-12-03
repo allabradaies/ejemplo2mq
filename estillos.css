@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    width: 100%;
+    border: 2px solid black;
+    margin: 0 auto;
+    padding: 2px;
+}
+
+article {
+    width: 32%;
+    float: left;
+    text-align: justify;
+}
+
+img {
+    display: block;
+    width: 75%;
+    margin: 10px auto;
+}
+
+#primero {
+    margin-right: 2%;
+}
+
+#ultimo {
+    float: right;
+}
+
+
+.LimpiaFloats {
+    clear: both;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        background-color: red;
+    }
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: green;
+    }
+    
+
+    article {
+        width: 96%;
+        /*float: left;*/
+        text-align: justify;
+        margin: 0 auto;
+        
+    }
+
+    img {
+        display: block;
+        width: 75%;
+        margin: 10px auto;
+    }
+
+   /* #primero {
+        margin-right: 2%;
+    }*/
+
+   /* #ultimo {
+        float: right;
+    }*/
+
+
+    .LimpiaFloats {
+        clear: both;
+    }
+    
+    
+}
